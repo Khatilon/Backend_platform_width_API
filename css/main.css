@@ -1,0 +1,181 @@
+section{
+	margin-top: 60px;
+}
+
+section:first-child{
+	margin-top: 40px;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+
+h2{
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/*About is default set for css*/
+
+table{
+	line-height: 120px;
+}
+
+tr:first-child{
+	border-bottom: 2px solid #ffcdd2;
+}
+
+input{
+	margin-top: 10px;
+	padding:2px 5px;
+	outline: none;
+	border-width: 0px;
+}
+
+input:focus{
+	border-width: 1px;
+	
+}
+
+textarea{
+	margin-top: 10px;
+	padding:2px 5px;
+	outline: none;
+	border-width: 0px;
+}
+
+textarea:focus{
+	border-width: 1px;
+}
+
+.btn-ray{
+	padding:10px;
+	color: #eee;
+	background-color: #e57373;
+	border-radius: 5px;
+	transition: 0.3s all;
+}
+
+.btn-ray:hover{
+	color: #d6b161;
+	background-color:#333;
+	
+}
+
+.mg10{
+	margin:0 10px;
+}
+
+.itemList{
+	margin-top: 50px;
+}
+
+
+.post-title{
+	background-color: #4CAF50;
+    padding: 13px;
+    color: #eee;
+    font-style: oblique;
+}
+
+.item-title{
+	padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+
+.tableElement{
+	margin-top: 10px;
+}
+
+
+.new-item{
+	width: 800px;
+	border: 2px solid #333;
+	padding:25px;
+	background-color: #FFF8E1;
+	border-radius: 20px;
+}
+
+
+.itemTable{
+	display: none;
+
+	position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+.itemTable.show{
+	display: flex;
+}
+
+.deleteTable{
+	display: none;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.deleteTable.show{
+	display: flex;
+
+}
+
+.deletePanel{
+	padding:50px 100px;
+	border:1px solid #333;
+	border-radius: 30px;
+	background-color:#FFF8E1;
+	transform:translateX(-50%);
+}
+
+.fake-panel{
+	opacity: 0.6;
+}
+
+.productEnabled{
+	font-weight: 700;
+	padding:10px;
+	background-color: #4CAF50;
+	color:#eee;
+}
+
+.productCannot{
+	font-weight: 700;
+	padding:10px;
+	background-color: #f44336;
+	color:#eee;
+}
+
+.paginationList{
+	margin:50px 0;
+}
+
+.paginationPanel{
+	display: flex;
+	list-style-type: none;
+}
+
+.paginationItem{
+	margin:0 -1px;
+}
+
+.paginationItem a{
+	padding:15px 20px;
+	border:1px solid #333;
+	background-color: #e57373;
+	color:#eee;
+	transition: all 0.3s;
+}
+
+.paginationItem .active{
+	color:#d6b161;
+	background-color: #333;
+}
